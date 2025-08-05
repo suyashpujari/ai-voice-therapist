@@ -35,4 +35,4 @@ As a final year project, there is significant potential for continued developmen
 ### Documentation
 
 This project serves as a strong foundation in AI-driven web development, API integration, and ethical data privacy practices. The code is well-commented and structured for clarity, making it a valuable reference for future projects.
-```
+
