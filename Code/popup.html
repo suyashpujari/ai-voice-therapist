@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voice Therapist</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div class="container">
+    <h1>Voice Therapist</h1>
+    <p>Talk about what's bothering you and get helpful responses</p>
+    
+    <div class="content-section">
+      <div class="status-indicator">
+        <div id="statusCircle" class="status-circle"></div>
+        <span id="statusText">Ready to listen</span>
+      </div>
+      
+      <button id="askButton" class="primary-button">
+        <span class="button-text">Ask</span>
+      </button>
+      
+      <div class="transcript-container">
+        <div class="transcript-header">
+          <span>Conversation</span>
+          <button id="clearButton">Clear</button>
+        </div>
+        <div id="transcript" class="transcript"></div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p class="info-text">Make sure to allow microphone access when prompted</p>
+      <button id="testMicButton" class="secondary-button">Test Microphone</button>
+    </div>
+  </div>
+  
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Voice Therapist",
+  "version": "1.0",
+  "description": "Talk about what's bothering you and get helpful responses through voice",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "images/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "audioCapture"
+  ],
+  "host_permissions": [
+    "https://api.groq.com/*",
+    "https://api.elevenlabs.io/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
